@@ -1,0 +1,61 @@
+{
+   "name": "NavigationViewDemo",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "../../../../../touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Cupertino",
+         "path": "theme/cupertino-2a378c67-6dfa-48f2-bea8-6229b9ea8cff.css",
+         "_architect_active_theme": true
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "44376592-fb8b-48d9-bd6d-74b1a127d7fc",
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "name": "NavigationViewDemo",
+      "css": [],
+      "js": [],
+      "resources": [],
+      "requires": []
+   }
+}

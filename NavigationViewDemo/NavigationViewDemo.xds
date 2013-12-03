@@ -1,0 +1,60 @@
+{
+    "name": "NavigationViewDemo",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone 5",
+                "builtIn": true,
+                "height": 568,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost/architect-projects/CityBars",
+        "exportPath": "",
+        "spacesToIndent": 2,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "iosBuild",
+            "display": "Build iOS app"
+        },
+        "license": "gpl",
+        "customPath": ""
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1337,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000003,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "5d6c7c4d-243a-4590-88a9-1d06539ba952",
+            "6f084ec4-6b3f-4e42-8668-c0336d40e5d5",
+            "cb1334c8-f2a4-433d-8461-be9ac04a865b",
+            "01241cbb-d3e9-46a6-81b9-4909342df7b5"
+        ],
+        "store": [],
+        "controller": [
+            "2d93ab7d-3c91-4059-9f37-36e3d6ac90f6"
+        ],
+        "model": [],
+        "resource": [
+            "2e3e984e-c075-44d4-bd35-f5d474f1629b",
+            "f2ec5077-a88e-4763-8368-b47e6acec589",
+            "2a378c67-6dfa-48f2-bea8-6229b9ea8cff"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

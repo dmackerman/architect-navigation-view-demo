@@ -1,0 +1,27 @@
+{
+    "type": "cupertino2themeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyCupertinoTheme1"
+    },
+    "designerId": "2a378c67-6dfa-48f2-bea8-6229b9ea8cff",
+    "storage": {
+        "needsCompile": false,
+        "nameIndex": 1,
+        "varData": {
+            "Ext.field.Field": {
+                "globalVars": [
+                    {
+                        "name": "form-field-height",
+                        "enabled": true,
+                        "value": "4em"
+                    }
+                ]
+            }
+        }
+    }
+}

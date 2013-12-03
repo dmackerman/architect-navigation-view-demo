@@ -1,0 +1,63 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "step1",
+        "designer|userClassName": "Step1Panel",
+        "padding": 20
+    },
+    "designerId": "6f084ec4-6b3f-4e42-8668-c0336d40e5d5",
+    "cn": [
+        {
+            "type": "Ext.form.FieldSet",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "margin": "0 0 20 0 ",
+                "title": "Enter a Number"
+            },
+            "designerId": "80bb0321-71a2-443f-b039-79ad4f83d636",
+            "cn": [
+                {
+                    "type": "Ext.field.Number",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "",
+                        "margin": "",
+                        "name": "number1",
+                        "placeHolder": "Yeah, a number."
+                    },
+                    "designerId": "4148cdaf-0be3-4612-b895-076e896fa33c"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "custom-button"
+                ],
+                "designer|uiInterfaceName": "action",
+                "text": "Next",
+                "ui": "action"
+            },
+            "designerId": "52f3134f-132b-4638-a50e-e6839044f0e3"
+        }
+    ]
+}

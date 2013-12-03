@@ -1,0 +1,60 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "step2",
+        "designer|userClassName": "Step2Panel",
+        "padding": 20
+    },
+    "designerId": "cb1334c8-f2a4-433d-8461-be9ac04a865b",
+    "cn": [
+        {
+            "type": "Ext.form.FieldSet",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "margin": "0 0 20 0 ",
+                "title": "Enter another Number"
+            },
+            "designerId": "34132c6b-c387-4655-8af8-cf862be15d41",
+            "cn": [
+                {
+                    "type": "Ext.field.Number",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "",
+                        "margin": "",
+                        "name": "number2",
+                        "placeHolder": "Yeah, a second number."
+                    },
+                    "designerId": "df1b4182-acb9-4c9e-b416-ca6a2ace3cf5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "action",
+                "text": "Next",
+                "ui": "action"
+            },
+            "designerId": "5ce3191d-bc13-4589-abca-a230a7fb2d9e"
+        }
+    ]
+}

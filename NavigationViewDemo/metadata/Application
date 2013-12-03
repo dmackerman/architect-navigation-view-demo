@@ -1,0 +1,24 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "MainNavController"
+        ],
+        "name": "NavigationViewDemo",
+        "requires": [
+            "Ext.MessageBox"
+        ],
+        "views": [
+            "Step1Panel",
+            "Step2Panel",
+            "Step3Panel",
+            "MainNav"
+        ]
+    },
+    "designerId": "application"
+}

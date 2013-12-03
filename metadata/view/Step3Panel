@@ -1,0 +1,108 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "step3",
+        "designer|userClassName": "Step3Panel",
+        "padding": 20
+    },
+    "designerId": "01241cbb-d3e9-46a6-81b9-4909342df7b5",
+    "cn": [
+        {
+            "type": "Ext.form.FieldSet",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "margin": "0 0 20 0 ",
+                "title": "Choose an Operation"
+            },
+            "designerId": "74292fa7-9431-45e6-b053-9e90280d0808",
+            "cn": [
+                {
+                    "type": "Ext.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "checked": true,
+                        "label": "Add",
+                        "labelWidth": "50%",
+                        "name": "operation",
+                        "value": "add"
+                    },
+                    "designerId": "8dcf9873-7f8f-4515-b3b6-c973c434e39a"
+                },
+                {
+                    "type": "Ext.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Subtract",
+                        "labelWidth": "50%",
+                        "name": "operation",
+                        "value": "subtract"
+                    },
+                    "designerId": "4855be57-5e53-4731-b682-a317227f5f78"
+                },
+                {
+                    "type": "Ext.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Multiply",
+                        "labelWidth": "50%",
+                        "name": "operation",
+                        "value": "multiply"
+                    },
+                    "designerId": "9bf8a3e1-016a-49f6-9fd3-36f05474fde3"
+                },
+                {
+                    "type": "Ext.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Divide",
+                        "labelWidth": "50%",
+                        "name": "operation",
+                        "value": "divide"
+                    },
+                    "designerId": "13b1e027-540c-4c3d-a81c-ede08ea4fb17"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "action-small",
+                "height": 50,
+                "itemId": "mybutton2",
+                "padding": "",
+                "text": "Calculate!"
+            },
+            "designerId": "279788f9-da4a-45e0-81f9-7da759f82946"
+        }
+    ]
+}

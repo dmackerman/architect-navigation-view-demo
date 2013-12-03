@@ -1,0 +1,29 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MainNav",
+        "useTitleForBackButtonText": true
+    },
+    "designerId": "5d6c7c4d-243a-4590-88a9-1d06539ba952",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Step 1"
+            },
+            "designerId": "75e1cb42-96c2-4b4a-b2e4-d1fd1abeddf8",
+            "masterInstanceId": "6f084ec4-6b3f-4e42-8668-c0336d40e5d5"
+        }
+    ]
+}
